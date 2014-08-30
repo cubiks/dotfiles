@@ -8,6 +8,10 @@ export PATH=$PATH:$JAVA_HOME/bin
 export MAVEN_HOME=/usr/share/maven
 export PATH=$PATH:$MAVEN_HOME/bin
 
+## Gradle
+export GRADLE_HOME=$HOME/programs/gradle-2.0
+export PATH=$PATH:$GRADLE_HOME/bin
+
 ## Helper scripts
 export PATH=$PATH:$HOME/scripts
 
