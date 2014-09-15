@@ -16,7 +16,15 @@ export PATH=$PATH:$GRADLE_HOME/bin
 export PATH=$PATH:$HOME/scripts
 
 ## PromptStyle - Terminal
-export PS1="\u@\h:\W>"
+Blue="\e[0;34m"         # Blue
+Green="\e[0;32m"        # Green
+Red="\e[0;31m"          # Red
+Yellow="\e[0;33m"       # Yellow
+White="\e[1;37m"        # White
+Reset="\e[m"            # Reset
+
+#export PS1="\u@\h:\W>"
+export PS1="\[$Blue\]\u\[$White\]@\[$Green\]\h\[$White\]:\[$Yellow\]\W\[$White\]>\[$Reset\]"
 
 ## Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -47,3 +55,4 @@ source /path/google-cloud-sdk/path.bash.inc
 
 # The next line enables bash completion for gcloud.
 source /path/google-cloud-sdk/completion.bash.inc
+
