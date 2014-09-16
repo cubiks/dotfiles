@@ -47,6 +47,9 @@ export PATH=$HOME/bin/Sencha/Cmd/4.0.4.84:$PATH
 export PATH=$PATH:$HOME/programs/adt-bundle-linux-x86_64-20131030/sdk/tools
 export PATH=$PATH:$HOME/programs/adt-bundle-linux-x86_64-20131030/sdk/platform-tools
 
+## ALIAS LIST
+alias spectrum="/usr/lib/jvm/java-7-oracle/bin/javaws http://{ip}:8080/spectrum/oneclick.jnlp"
+
 # Go
 export PATH=$PATH:/usr/local/go/bin
 
